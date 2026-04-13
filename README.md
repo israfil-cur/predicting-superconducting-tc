@@ -1,11 +1,12 @@
-# predicting-superconducting-tc
-Machine learning project for predicting superconducting critical temperature from engineered material descriptors
 # Predicting Superconducting Critical Temperature with Machine Learning
 
-This project explores machine learning approaches for predicting the critical temperature (`critical_temp`) of superconducting materials using engineered material descriptors.
+This project explores machine learning methods for predicting the critical temperature (`critical_temp`) of superconducting materials from engineered material descriptors.
 
-## Project Goal
-The goal of this project is to compare several regression models and evaluate how well they predict superconducting critical temperature from material-related numerical descriptors.
+## Motivation
+Superconducting materials are important in modern physics and materials science because they exhibit unusual electronic behavior and may support future technologies. Predicting critical temperature from material descriptors can help build an early screening pipeline for identifying promising superconducting candidates.
+
+## Dataset
+The project uses a real superconductivity dataset containing engineered numerical descriptors and the target variable `critical_temp`.
 
 ## Models Tested
 - Linear Regression
@@ -19,14 +20,14 @@ The goal of this project is to compare several regression models and evaluate ho
 Among the tested models, **Random Forest** achieved the best performance on the current dataset.
 
 ## Additional Analysis
-The project also includes:
+The notebook also includes:
 - feature importance analysis
 - correlation analysis
 - target distribution visualization
-- PCA-based visualization of feature-space structure
+- PCA-based feature-space visualization
 
-## Conclusion
+## Key Takeaway
 The results suggest that the relationship between engineered descriptors and critical temperature is strongly nonlinear, and that tree-based ensemble methods are especially suitable for this task.
 
-## Files
+## File
 - `predicting_critical_temperature_ml.ipynb` — main project notebook
