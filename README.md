@@ -3,7 +3,7 @@
 
 ## Motivation
 
-In 2024, severe flooding hit Dagestan, Russia. Local officials attributed part of the infrastructure damage to degraded electrical wiring — cables that wear out, overheat, and fail under stress.
+In 2026, severe flooding hit Dagestan, Russia. Local officials attributed part of the infrastructure damage to degraded electrical wiring — cables that wear out, overheat, and fail under stress.
 
 That event made me ask a question: *what if electrical grids didn't lose energy at all?*
 
